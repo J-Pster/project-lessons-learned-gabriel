@@ -1,27 +1,99 @@
-body{
+body {
+  margin: 0;
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-  position: fixed;
-  top: 0;
+#cabecalho {
   width: 100%;
-  background-color: rgb(164, 84, 218);
+  height: 50px;
+  background-color: #be80e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#minha_foto{
-  width: 500px;
+#titulo {
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#minha_foto {
+  padding-top: 3%;
+  padding-left: 3%;
+  width: 300px;
+}
+
+#desc{
+  margin-top: 0%;
+  padding-left: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #be80e7;
+}
+
+#licoes_aprendidas {
+  border-top: solid;
+  border: color rgb(168, 168, 168);
+  border-width: 2px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#licoes_a_aprender {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-top: solid;
+  border: color rgb(168, 168, 168);
+  border-width: 2px;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#flex aside {
+  min-width: 220px;
+  margin-bottom: 20px;
+}
+
+#artigo {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  border-top: solid;
+  border: color rgb(168, 168, 168);
+  border-width: 2px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #tabela {
-  border: 1px solid #000;
-}
-
-#tabela tr td {
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
-  padding: 0px 6px 0px 6px;
+  background-color:#cfa4eb;
+  margin-bottom: 20px;
+  margin-left: 3%;
 }
 
 
+#lateral {
+  border-left: solid;
+  border: color rgb(168, 168, 168);
+  border-width: 2px;
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodape {
+  background-color: #be80e7;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
+a:link {
+  color: aliceblue;
+}
 
