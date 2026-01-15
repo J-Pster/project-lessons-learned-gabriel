@@ -1,44 +1,99 @@
-body{
+body {
+  margin: 0;
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-  position: fixed;
-  top: 0;
+#cabecalho {
   width: 100%;
-  background-color: rgb(164, 84, 218);
-}
-#titulo{
-
-}
-
-#minha_foto{
-  width: 500px;
+  height: 50px;
+  background-color: #be80e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#licoes_aprendidas{
-  background-color: aqua;
+#titulo {
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#minha_foto {
+  padding-top: 3%;
+  padding-left: 3%;
+  width: 300px;
 }
 
-#licoes_a_aprender{
-  background-color: blue;
+#desc{
+  margin-top: 0%;
+  padding-left: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #be80e7;
 }
 
-#artigo{
-  background-color: brown;
+#licoes_aprendidas {
+  border-top: solid;
+  border: color rgb(168, 168, 168);
+  border-width: 2px;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
-#tabela{
-  background-color: chartreuse;
+#licoes_a_aprender {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-top: solid;
+  border: color rgb(168, 168, 168);
+  border-width: 2px;
 }
 
-#lateral{
-  background-color: coral;
+#flex {
+  display: flex;
+  flex-direction: row;
+
 }
 
-#rodape{
-  background-color: darkgreen;
+#flex aside {
+  min-width: 220px;
+  margin-bottom: 20px;
+}
+
+#artigo {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  border-top: solid;
+  border: color rgb(168, 168, 168);
+  border-width: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabela {
+  background-color:#cfa4eb;
+  margin-bottom: 20px;
+  margin-left: 3%;
 }
 
 
+#lateral {
+  border-left: solid;
+  border: color rgb(168, 168, 168);
+  border-width: 2px;
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodape {
+  background-color: #be80e7;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
+a:link {
+  color: aliceblue;
+}
 
