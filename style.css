@@ -75,6 +75,8 @@ body {
 
 
 #lateral {
+  padding-left: 3%;
+  padding-right: 3%;
   border-left: solid;
   border: color rgb(168, 168, 168);
   border-width: 2px;
